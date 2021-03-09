@@ -1,4 +1,4 @@
-module github.com/MaruHyl/xgrpc
+module github.com/kirinse/xgrpc
 
 go 1.12
 

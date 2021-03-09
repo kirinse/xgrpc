@@ -3,12 +3,11 @@ package xgrpc
 import (
 	"context"
 	"errors"
-	"io"
-	"sync"
-
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"
+	"io"
+	"sync"
 )
 
 var (
